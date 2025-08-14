@@ -65,12 +65,15 @@ footer {
 }
 
 .mobile-navbar {
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 20px;
     display: none;
     width: 100%;
 }
 
 .mobile-navbar summary {
+    width: 100%;
     min-height: 50px;
     display: block;
     cursor: pointer;
